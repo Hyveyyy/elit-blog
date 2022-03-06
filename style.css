@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+    background-color:#ebebeb
+}
+
+#logo {
+    color:#000000;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 85px;
+    font-weight: bold;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    margin-right: 45px;
+}
+
+nav ul li a {
+    color: #000000;
+    font-size: 17px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 0.2rem;
+  }
+
+.active {
+      text-decoration: underline;
+      text-underline-offset: 5px;
+      text-decoration-thickness: 0.2rem;
+  }
+
+
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 15%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+footer ul li {
+    display: inline-block;
+    text-align: center;
+}
+footer ul li a {
+    color: #000000;
+
+}
+
+footer ul li a img {
+    margin: -65px;
+    height: 15%;
+    width: 12%; 
+}
+
+  .me-home {
+      text-align: center;
+      margin-top: 15%;
+  }
+
+  .holden-caufield-home a {
+    color: black;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 0.2rem;
+  }
+
+  .holden-caufield-home:hover {
+      color: gray;
+  }
+
+  #hc-pic-home {
+      margin-right: 60%;
+      margin-top: -10%;
+      border-radius: 5px;
+  }
+  
+  #holden {
+    border-radius: 50%;
+    width: 290px;
+    height: 290px;
+    margin-top: 8%;
+    margin-left: 15%;
+    text-align: center;
+  }
+
+  #welcome-phonies {
+    text-align: left;
+    margin-top: -18%;
+    margin-left: 38%;
+  }
+
+  #p1-about-me {
+      text-align: left;
+      margin-bottom: auto;
+      margin-left: 38.3%; 
+
+  }
+
+  
